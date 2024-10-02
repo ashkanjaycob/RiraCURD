@@ -33,7 +33,7 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
 # Installation
 Clone the repository:
 
-git clone [https://github.com/yourusername/your-crud-app.git](https://github.com/ashkanjaycob/RiraCURD)
+git clone [https://github.com/RiraCurdApp](https://github.com/ashkanjaycob/RiraCURD)
 
 cd your-crud-app
 
