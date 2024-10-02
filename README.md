@@ -13,18 +13,27 @@ High Performance with Vite for fast builds and hot module replacement
 Type Safety with TypeScript
 
 Frontend Framework: React with Vite
+
 Language: TypeScript
+
 Libraries Used:
+
 UUID: For generating unique IDs for each data entry.
+
 React-Draggable : For adding draggable functionality to UI components.
+
+ChatGpt : Used For Bug Fixing .
+
 Getting Started
+
 Prerequisites
+
 Make sure you have Node.js and npm (or yarn) installed on your machine.
 
 # Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/your-crud-app.git
+git clone [https://github.com/yourusername/your-crud-app.git](https://github.com/ashkanjaycob/RiraCURD)
 
 cd your-crud-app
 
