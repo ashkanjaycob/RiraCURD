@@ -1,4 +1,5 @@
-![RiraApp View](https://github.com/user-attachments/assets/42307801-e94a-4a02-b8b4-444af0ab5a8b)
+
+![Curd Rira App](https://github.com/user-attachments/assets/6b41b8c1-901e-4d46-b95e-c389c34520d0)
 
 CRUD Application
 Overview
@@ -33,16 +34,18 @@ npm install
 # or
 yarn install
 
-Running the Application
+# Running the Application
 
 To start the development server, run:
+
 npm run dev
 # or
 yarn dev
 
 This will start the app locally. Open your browser and navigate to http://localhost:3004 to view the application.
 
-Build for Production
+
+# Build for Production
 
 To build the application for production:
 
@@ -52,7 +55,7 @@ yarn build
 
 The built assets will be available in the dist directory.
 
-Usage
+# Usage
 This CRUD application allows users to:
 
 Create: Add new items to the list using a simple form.
@@ -62,7 +65,7 @@ Delete: Remove items permanently.
 Items can be dragged to rearrange them, thanks to the draggable library, making for a user-friendly interface.
 
 
-Dependencies
+# Dependencies
 React: A JavaScript library for building user interfaces.
 
 TypeScript: Ensures type safety throughout the app.
