@@ -1,0 +1,195 @@
+:root {
+  font-family: "Poppins", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 15px;
+}
+.Header-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.introduction {
+  color: white;
+  background-color: #000000;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 10px;
+  transition: 0.3s;
+}
+.introduction:hover {
+  cursor: pointer;
+  background-color: #3b3b3b;
+}
+.NotesPanel {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: center;
+}
+.Note {
+  background-color: #eedf7a;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+  min-height: 300px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.drag-handle {
+  cursor: move;
+  padding: 8px 16px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 8px 8px 0 0;
+}
+.Note-handle {
+  cursor: grab;
+  background-color: #d1c559;
+  padding: 0.5rem;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  font-weight: bold;
+}
+.deadline-today {
+  background-color: rgb(240, 98, 98);
+}
+.newNote {
+  background-color: #d1e9f6;
+}
+textarea {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 250px;
+  border: none;
+  resize: none;
+  background-color: inherit;
+}
+textarea:focus {
+  outline: none;
+}
+.datePickerContainer {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+  position: relative;
+}
+/* Make Input Full Area ClickAble & Hide Calendar Icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+.date {
+  background-color: inherit;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 12px;
+  padding: 8px 10px;
+}
+.save {
+  background-color: #fff6ea;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 10px;
+  transition: 0.3s;
+}
+.save:hover {
+  cursor: pointer;
+  background-color: #ebe1d5;
+}
+.cancel {
+  background-color: #f38484;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 10px;
+}
+.cancel:hover {
+  cursor: pointer;
+  background-color: #f57575;
+}
+.Note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delete-icon {
+  cursor: pointer;
+}
+.dates-show {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #e9e9e9;
+  border-radius: 20px;
+  padding: 12px;
+  margin: 10px 0;
+}
+.search input {
+  margin-left: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+.close-modal {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.close-modal:hover {
+  background: #555;
+}
