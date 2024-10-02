@@ -20,28 +20,36 @@ Getting Started
 Prerequisites
 Make sure you have Node.js and npm (or yarn) installed on your machine.
 
-Installation
+# Installation
 Clone the repository:
+
 git clone https://github.com/yourusername/your-crud-app.git
+
 cd your-crud-app
 
 Install dependencies:
+
 npm install
 # or
 yarn install
 
 Running the Application
+
 To start the development server, run:
 npm run dev
 # or
 yarn dev
+
 This will start the app locally. Open your browser and navigate to http://localhost:3004 to view the application.
 
 Build for Production
+
 To build the application for production:
+
 npm run build
 # or
 yarn build
+
 The built assets will be available in the dist directory.
 
 Usage
@@ -56,17 +64,27 @@ Items can be dragged to rearrange them, thanks to the draggable library, making 
 
 Dependencies
 React: A JavaScript library for building user interfaces.
+
 TypeScript: Ensures type safety throughout the app.
+
 Vite: For a fast development server and optimized production build.
+
 UUID: Generates unique IDs for items.
+
 React-Draggable: Adds drag-and-drop functionality for easy item management.
+
 Contributing
+
 Contributions are welcome! Please follow these steps to contribute:
 
 Fork the repository.
+
 Create a new branch (git checkout -b feature/YourFeature).
+
 Commit your changes (git commit -m 'Add some feature').
+
 Push to the branch (git push origin feature/YourFeature).
+
 Open a Pull Request.
 
 License
@@ -76,4 +94,4 @@ Contact
 Feel free to reach out if you have any questions or suggestions:
 
 Email: ashkan.yaghobii@gmail.com
-LinkedIn: [Your LinkedIn Profile](https://ir.linkedin.com/in/ashkanyaghobi)
+LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/ashkanyaghobi)
